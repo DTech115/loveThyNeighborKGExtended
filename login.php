@@ -167,6 +167,13 @@
             <a href="VolunteerRegister.php" class="text-[rgb(203,37,26)] font-semibold hover:underline">Sign Up Now</a>
           </p>
 
+          <!-- Foodway (low-key) -->
+          <div class="flex justify-end mt-6">
+            <a href="foodwayHome.php"
+              class="absolute bottom-4 right-4 px-4 py-2 text-sm font-medium text-[rgb(0,74,173)] border border-[rgb(0,74,173)] rounded-lg hover:bg-[rgb(0,74,173)] hover:text-white transition duration-300">              Foodway →
+            </a>
+          </div>
+        
         </div>
       </div>
 
