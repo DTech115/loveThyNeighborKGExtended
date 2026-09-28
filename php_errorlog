@@ -1,0 +1,246 @@
+[02-Feb-2026 09:34:15 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 09:34:15 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 09:34:15 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 09:36:57 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 09:36:57 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 09:36:57 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 09:37:00 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 09:37:00 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 09:37:00 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 09:37:03 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 09:37:03 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 09:37:03 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 12:04:31 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:04:31 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:04:37 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:04:37 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:04:40 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:04:40 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:08:42 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 12:08:42 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 12:08:42 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 12:08:45 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 12:08:45 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 12:08:45 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 12:08:46 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 12:08:46 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 12:08:46 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 12:10:38 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 12:10:38 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 12:10:38 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 12:10:57 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:10:57 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 12:46:18 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 12:46:18 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 12:46:18 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 12:46:55 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 12:46:55 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 12:46:55 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 12:47:01 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 12:47:01 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 12:47:01 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[02-Feb-2026 13:07:38 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 13:07:38 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[02-Feb-2026 18:51:31 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[02-Feb-2026 18:51:31 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[02-Feb-2026 18:51:31 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 09:41:28 America/New_York] PHP Warning:  Undefined variable $date in /home/customer/www/jenniferp217.sg-host.com/public_html/adminViewingEvents.php on line 69
+[04-Feb-2026 09:42:50 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 09:42:50 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 09:42:50 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 09:46:32 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 09:46:32 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 09:46:32 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 09:46:38 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 09:46:38 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 09:46:38 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 12:33:52 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[04-Feb-2026 12:33:52 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[04-Feb-2026 12:38:43 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 12:38:43 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 12:38:43 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 13:14:43 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 13:14:43 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 13:14:43 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 13:19:32 America/New_York] PHP Warning:  Uninitialized string offset 0 in /home/customer/www/jenniferp217.sg-host.com/public_html/modifyUserRole.php on line 139
+[04-Feb-2026 13:24:42 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 13:24:42 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 13:24:42 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 13:24:45 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 13:24:45 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 13:24:45 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 13:24:51 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 13:24:51 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 13:24:51 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 13:25:55 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_first_name() on bool in /home/customer/www/jenniferp217.sg-host.com/public_html/viewApplication.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewApplication.php on line 46
+[04-Feb-2026 13:26:23 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 13:26:23 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 13:26:23 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 13:26:37 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar-view_weekly.php on line 66
+[04-Feb-2026 13:26:50 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[04-Feb-2026 13:26:50 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[04-Feb-2026 13:26:50 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[04-Feb-2026 13:28:29 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[04-Feb-2026 13:28:29 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[04-Feb-2026 13:30:21 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[04-Feb-2026 13:30:21 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 11:34:14 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 11:34:14 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 14:53:41 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 14:53:41 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 14:53:45 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 14:53:45 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 14:54:00 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 14:54:00 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[06-Feb-2026 16:11:05 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[06-Feb-2026 16:11:05 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[06-Feb-2026 16:11:05 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[06-Feb-2026 16:11:59 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[06-Feb-2026 16:11:59 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[06-Feb-2026 16:11:59 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[06-Feb-2026 16:12:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_first_name() on bool in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php:196
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php on line 196
+[06-Feb-2026 16:12:23 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_first_name() on bool in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php:196
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php on line 196
+[06-Feb-2026 16:12:28 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[06-Feb-2026 16:12:28 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[06-Feb-2026 16:12:28 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[06-Feb-2026 16:12:39 America/New_York] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function sign_up_for_event(), 3 passed in /home/customer/www/jenniferp217.sg-host.com/public_html/fromPendingApproveSignup.php on line 29 and exactly 4 expected in /home/customer/www/jenniferp217.sg-host.com/public_html/database/dbEvents.php:99
+Stack trace:
+#0 /home/customer/www/jenniferp217.sg-host.com/public_html/fromPendingApproveSignup.php(29): sign_up_for_event('173', 'vmsroot', '')
+#1 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/database/dbEvents.php on line 99
+[06-Feb-2026 16:12:45 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[06-Feb-2026 16:12:45 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[06-Feb-2026 16:12:45 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[06-Feb-2026 16:13:07 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[06-Feb-2026 16:13:07 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[06-Feb-2026 16:13:07 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[06-Feb-2026 16:13:17 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_first_name() on bool in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php:196
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php on line 196
+[06-Feb-2026 16:13:29 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[06-Feb-2026 16:13:29 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[06-Feb-2026 16:13:29 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[07-Feb-2026 12:53:02 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[07-Feb-2026 12:53:02 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[07-Feb-2026 12:53:02 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[07-Feb-2026 12:53:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_first_name() on bool in /home/customer/www/jenniferp217.sg-host.com/public_html/viewApplication.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewApplication.php on line 46
+[07-Feb-2026 13:14:15 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[07-Feb-2026 13:14:15 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[07-Feb-2026 13:14:15 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[07-Feb-2026 13:15:42 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[07-Feb-2026 13:15:42 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[07-Feb-2026 13:15:42 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[07-Feb-2026 14:53:41 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[07-Feb-2026 14:53:41 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[07-Feb-2026 14:53:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/jenniferp217.sg-host.com/public_html/viewProfile.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewProfile.php on line 40
+[07-Feb-2026 14:53:48 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_id() on bool in /home/customer/www/jenniferp217.sg-host.com/public_html/viewProfile.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewProfile.php on line 40
+[07-Feb-2026 20:52:11 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[07-Feb-2026 20:52:11 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[07-Feb-2026 20:52:11 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 13:52:01 America/New_York] PHP Deprecated:  ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/jenniferp217.sg-host.com/public_html/personSearch.php on line 189
+[08-Feb-2026 13:53:51 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 13:53:51 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 13:53:51 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 13:56:53 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 13:56:53 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 13:56:53 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 13:57:48 America/New_York] PHP Warning:  Undefined variable $signup in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php on line 295
+[08-Feb-2026 13:57:48 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getUserID() on null in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php:295
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php on line 295
+[08-Feb-2026 14:18:15 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 14:18:15 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 14:18:15 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 14:18:38 America/New_York] PHP Warning:  Undefined variable $signup in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php on line 295
+[08-Feb-2026 14:18:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function getUserID() on null in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php:295
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp217.sg-host.com/public_html/viewEventSignUps.php on line 295
+[08-Feb-2026 14:18:40 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 14:18:40 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 14:18:40 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 14:18:43 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 14:18:43 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 14:18:43 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 14:18:46 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 14:18:46 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 14:18:46 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 14:18:47 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 14:18:47 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 14:18:47 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 15:19:22 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 15:19:22 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 15:19:22 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 15:19:26 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 15:19:26 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 15:19:26 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 15:19:29 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar-view_weekly.php on line 66
+[08-Feb-2026 15:38:50 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 15:38:50 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 15:38:50 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 16:06:33 America/New_York] PHP Deprecated:  ucfirst(): Passing null to parameter #1 ($string) of type string is deprecated in /home/customer/www/jenniferp217.sg-host.com/public_html/personSearch.php on line 189
+[08-Feb-2026 18:41:06 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 18:41:06 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 18:41:06 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 18:41:07 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 18:41:07 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 18:41:07 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 18:41:09 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 18:41:09 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 18:41:09 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 19:59:33 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[08-Feb-2026 19:59:33 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[08-Feb-2026 23:24:15 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 23:24:15 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 23:24:15 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 23:28:24 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 23:28:24 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 23:28:24 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 23:30:55 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 23:30:55 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 23:30:55 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 23:30:58 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 23:30:58 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 23:30:58 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 23:31:00 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 23:31:00 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 23:31:00 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 23:31:22 America/New_York] PHP Warning:  Undefined variable $day in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 96
+[08-Feb-2026 23:31:22 America/New_York] PHP Warning:  Undefined variable $view2digit in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 115
+[08-Feb-2026 23:31:22 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp217.sg-host.com/public_html/calendar.php on line 198
+[08-Feb-2026 23:40:00 America/New_York] PHP Warning:  Undefined variable $groups in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[08-Feb-2026 23:40:00 America/New_York] PHP Warning:  foreach() argument must be of type array|object, null given in /home/customer/www/jenniferp217.sg-host.com/public_html/generateEmailList.php on line 232
+[29-Apr-2026 13:36:37 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/customer/www/jenniferp235.sg-host.com/public_html/event.php on line 428
+[29-Apr-2026 13:37:34 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function get_first_name() on bool in /home/customer/www/jenniferp235.sg-host.com/public_html/viewEventSignUps.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/jenniferp235.sg-host.com/public_html/viewEventSignUps.php on line 108
+[29-Apr-2026 23:18:45 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/customer/www/jenniferp235.sg-host.com/public_html/event.php on line 428
+[29-Apr-2026 23:19:52 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/customer/www/jenniferp235.sg-host.com/public_html/event.php on line 428
+[01-May-2026 15:30:53 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp235.sg-host.com/public_html/calendar.php on line 158
+[06-May-2026 14:16:53 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp235.sg-host.com/public_html/calendar.php on line 158
+[24-Aug-2026 12:20:49 America/New_York] PHP Warning:  Undefined array key "access_level" in /home/customer/www/jenniferp235.sg-host.com/public_html/viewOverallEventsKG.php on line 106
+[31-Aug-2026 11:19:04 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp235.sg-host.com/public_html/calendar.php on line 158
+[13-Sep-2026 23:31:30 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp235.sg-host.com/public_html/calendar.php on line 158
+[14-Sep-2026 09:24:27 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp235.sg-host.com/public_html/calendar.php on line 158
+[20-Sep-2026 18:10:04 America/New_York] PHP Warning:  Undefined variable $loggedIn in /home/customer/www/jenniferp235.sg-host.com/public_html/calendar.php on line 158

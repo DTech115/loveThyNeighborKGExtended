@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.report-page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 0.6in;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.report-header {
+    text-align: center;
+    margin-bottom: 0.3in;
+}
+
+.report-header h1 {
+    margin: 0 0 0.1in 0;
+    font-size: 24px;
+}
+
+.report-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.report-meta {
+    margin-bottom: 0.3in;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.report-summary {
+    margin-bottom: 0.25in;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+table.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+table.report-table th,
+table.report-table td {
+    border: 1px solid #000;
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+table.report-table th {
+    background-color: #f2f2f2;
+}
+
+.summary-box {
+    margin-top: 0.3in;
+    border: 1px solid #000;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.report-footnote {
+    margin-top: 0.3in;
+    font-size: 13px;
+}
+
+.no-results {
+    margin-top: 0.3in;
+    padding: 12px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+.actions {
+    width: 8.5in;
+    margin: 1rem auto 2rem auto;
+    text-align: center;
+}
+
+.actions a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #000;
+    color: #000;
+    background: #f5f5f5;
+    margin: 0 8px;
+}
+
+@media print {
+    .actions {
+        display: none;
+    }
+
+    .report-page {
+        margin: 0;
+        box-shadow: none;
+    }
+}

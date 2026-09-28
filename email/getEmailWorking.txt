@@ -1,0 +1,4 @@
+steps:
+install composer (on linux sudo apt install composer)
+move to the email dir in the terminal 
+run : composer require phpmailer/phpmailer vlucas/phpdotenv

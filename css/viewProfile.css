@@ -1,0 +1,308 @@
+/* ── Page shell ── */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.view-profile-wrap {
+  max-width: 860px;
+  margin: 2rem auto;
+  padding: 0 1rem 3rem;
+  color: var(--page-font-color, #111111);
+}
+
+/* ── Section cards (mirrors .section-box) ── */
+.view-section-box {
+  border: 1px solid var(--accent-color, rgb(0, 74, 173));
+  border-radius: 5px;
+  padding: 15px 20px 20px;
+  margin-bottom: 20px;
+  background-color: var(--page-background-color, #f5f5f7);
+}
+
+/* ── Blue underline beneath headings (mirrors .blue-div) ── */
+.blue-div {
+  height: 3px;
+  background-color: var(--accent-color, rgb(0, 74, 173));
+  border-radius: 2px;
+  margin: 4px 0 16px;
+}
+
+.view-section-box h3 {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--page-font-color, #111111);
+}
+
+/* ── Field rows ── */
+.field-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.field-row:last-child {
+  margin-bottom: 0;
+}
+.field-label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-color, rgb(0, 74, 173));
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 3px;
+}
+.field-value {
+  font-size: 1.05rem;
+  color: var(--page-font-color, #111111);
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 0.45rem 0.75rem;
+}
+.field-value a {
+  color: var(--accent-color, rgb(0, 74, 173));
+  text-decoration: none;
+}
+.field-value a:hover {
+  text-decoration: underline;
+}
+
+/* ── Page title ── */
+.view-profile-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--page-font-color, #111111);
+  text-align: center;
+}
+
+/* ── Buttons ── */
+.btn-primary {
+  display: inline-block;
+  padding: var(--button-padding, 0.5rem 1.5rem);
+  background-color: var(--main-color, rgb(62, 129, 50));
+  color: var(--button-font-color, #ffffff);
+  border: none;
+  border-radius: var(--button-border-radius, 0.25rem);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.15s ease;
+}
+.btn-primary:hover {
+  background-color: var(--accent-color, rgb(0, 74, 173));
+  color: #ffffff;
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: var(--button-padding, 0.5rem 1.5rem);
+  background-color: #ffffff;
+  color: var(--page-font-color, #111111);
+  border: 1px solid #9ca3af;
+  border-radius: var(--button-border-radius, 0.25rem);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+  transition: border-color 0.15s ease;
+}
+.btn-secondary:hover {
+  border-color: var(--accent-color, rgb(0, 74, 173));
+  color: var(--accent-color, rgb(0, 74, 173));
+}
+
+/* ── Top button row ── */
+.profile-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.profile-actions .btn-primary,
+.profile-actions .btn-secondary {
+  width: auto;
+  margin-bottom: 0;
+  flex: 1;
+}
+
+/* ── CSS-only tabs ── */
+.tab-radio { display: none; }
+
+.tab-card {
+  border: 1px solid var(--accent-color, rgb(0, 74, 173));
+  border-radius: 5px;
+  background-color: var(--page-background-color, #f5f5f7);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.tab-bar {
+  display: flex;
+  border-bottom: 3px solid var(--accent-color, rgb(0, 74, 173));
+  background: #ffffff;
+}
+.tab-label {
+  flex: 1;
+  padding: 0.65rem 0.5rem;
+  text-align: center;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  border-right: 1px solid #e5e7eb;
+  transition: background 0.12s, color 0.12s;
+  user-select: none;
+}
+.tab-label:last-of-type { border-right: none; }
+.tab-label:hover {
+  background: #f0f4ff;
+  color: var(--accent-color, rgb(0, 74, 173));
+}
+
+/* Active tab label */
+#tab-personal:checked ~ .tab-card .tab-label[for="tab-personal"],
+#tab-contact:checked  ~ .tab-card .tab-label[for="tab-contact"],
+#tab-notifs:checked   ~ .tab-card .tab-label[for="tab-notifs"] {
+  background: var(--accent-color, rgb(0, 74, 173));
+  color: #ffffff;
+}
+
+/* Tab panels — all hidden by default */
+.tab-panel { display: none; padding: 20px; }
+
+/* Show the right panel */
+#tab-personal:checked ~ .tab-card #panel-personal,
+#tab-contact:checked  ~ .tab-card #panel-contact,
+#tab-notifs:checked   ~ .tab-card #panel-notifs {
+  display: block;
+}
+
+/* ── Toast banners ── */
+.toast-success {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: #166534;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.toast-error {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  background: #991b1b;
+  color: #fff;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* ── Modal ── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(17,17,17,0.5);
+  z-index: 1000;
+  overflow-y: auto;
+}
+.modal-overlay:target {
+  display: block;
+}
+.modal-box {
+  position: relative;
+  top: 5rem;
+  margin: 0 auto 3rem;
+  padding: 1.5rem;
+  border: 1px solid var(--accent-color, rgb(0, 74, 173));
+  border-radius: 5px;
+  background: #ffffff;
+  width: 90%;
+  max-width: 560px;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #d1d5db;
+  margin-bottom: 1rem;
+}
+.modal-header h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--page-font-color, #111111);
+}
+.modal-close {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111111;
+  text-decoration: none;
+  line-height: 1;
+}
+.modal-close:hover {
+  color: var(--accent-color, rgb(0, 74, 173));
+}
+.modal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.modal-table th {
+  text-align: left;
+  padding: 0.6rem 1rem;
+  border-bottom: 2px solid #d1d5db;
+  color: var(--accent-color, rgb(0, 74, 173));
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+}
+.modal-table td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+.modal-table tr:last-child td {
+  border-bottom: none;
+}
+.modal-table tr:hover td {
+  background: #f5f5f7;
+}
+.verified-badge {
+  color: var(--main-color, rgb(62, 129, 50));
+  font-weight: 600;
+}
+.modal-footer {
+  margin-top: 1.25rem;
+  text-align: right;
+}
+.modal-footer a {
+  display: inline-block;
+  padding: 0.45rem 1.25rem;
+  background: #6b7280;
+  color: #fff;
+  border-radius: var(--button-border-radius, 0.25rem);
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+.modal-footer a:hover {
+  background: #374151;
+}
