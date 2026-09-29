@@ -17,14 +17,14 @@ $isFoodwayPage = true;
 require_once('header.php');
 ?>
     <div class="px-6 pt-4">
-        <p style="font-size: 50px; text-align:center;"> Welcome to Foodway!</p>
+        <p style="font-size: 32px; text-align:center;"> Welcome to Foodway!</p>
     </div>
     <main class="flex flex-1 items-center justify-center p-6">
 
     <!-- Button row: add more buttons here later -->
     <div class="flex flex-wrap items-center justify-center gap-8">
 
-        <a href="#"
+        <a href="foodwayFoodOut.php"
             class="group relative overflow-hidden px-16 py-10 text-3xl font-bold text-white
                 bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                 rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
