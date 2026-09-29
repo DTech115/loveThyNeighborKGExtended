@@ -1,4 +1,34 @@
 <?php
+if (($isFoodwayPage ?? false) === true) {
+    ?>
+    <header class="header foodway-public-header">
+        <div class="header-container">
+            <div class="header-left">
+                <div class="date">Foodway</div>
+            </div>
+            <div class="header-center">
+                <div class="header-top">
+                    <a href="foodwayHome.php">
+                        <img src="images/LoveThyNeighbor_logo2.jpeg" class="logo" alt="Love Thy Neighbor home">
+                    </a>
+                    <div class="text-group">
+                        <h1 class="main-title">LOVE THY NEIGHBOR</h1>
+                        <p class="sub-title">King George County Community Food Pantry</p>
+                    </div>
+                </div>
+                <!-- <nav class="header-nav" aria-label="Foodway navigation">
+                    <a href="foodwayHome.php">Home</a>
+                </nav> -->
+            </div>
+            <div class="header-right">
+                <a class="profile-name foodway-public-login" href="login.php">Volunteer Login</a>
+            </div>
+        </div>
+    </header>
+    <?php
+    return;
+}
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }

@@ -1,5 +1,22 @@
 /* The header*/
 
+.header.foodway-public-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.foodway-public-login {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.foodway-public-login:hover,
+.foodway-public-login:focus-visible {
+    color: rgba(203, 37, 26, 1);
+}
+
 .header {
     width: 100%;
     background: white;
