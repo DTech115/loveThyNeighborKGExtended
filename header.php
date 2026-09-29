@@ -16,9 +16,6 @@ if (($isFoodwayPage ?? false) === true) {
                         <p class="sub-title">King George County Community Food Pantry</p>
                     </div>
                 </div>
-                <!-- <nav class="header-nav" aria-label="Foodway navigation">
-                    <a href="foodwayHome.php">Home</a>
-                </nav> -->
             </div>
             <div class="header-right">
                 <a class="profile-name foodway-public-login" href="login.php">Volunteer Login</a>
