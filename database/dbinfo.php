@@ -31,11 +31,16 @@ function connect() {
  
     
     $con = mysqli_connect($host,$user,$pass,$database);
-    if (!$con) { echo "not connected to server"; return mysqli_error($con);}
+    if (!$con) {
+        throw new mysqli_sql_exception('Unable to connect to database: ' . mysqli_connect_error());
+    }
     $selected = mysqli_select_db($con,$database);
-    if (!$selected) { echo "database not selected"; return mysqli_error($con); }
-    else return $con;
-    
+    if (!$selected) {
+        $error = mysqli_error($con);
+        mysqli_close($con);
+        throw new mysqli_sql_exception('Unable to select database: ' . $error);
+    }
+    return $con;
 }
 
 ?>
