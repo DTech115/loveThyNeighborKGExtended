@@ -1,15 +1,9 @@
 <?php
-/*
- * purpose: to manage the functions necessary to interact with the goods_out table in the
- *  database for LTN (Foodway: food out)
- */
+// fuctions for the foodsout part of the database
 
 include_once('dbinfo.php');
 
-/* adds one food out entry.
- * returns the new entry_id, or false if the entry was not saved.
- * total_weight is calculated by the database (scale weight minus cart), so it is not passed in.
- */
+// adds a food out entry, returns the new entry_id or flase if not saved
 function addFoodOut($customerid, $scaleweight, $cartapplied, $householdcount)
 {
     $con = null;
@@ -17,7 +11,7 @@ function addFoodOut($customerid, $scaleweight, $cartapplied, $householdcount)
         $con = connect();
         $query = "INSERT INTO `goods_out` (`customer_id`, `scale_weight`, `cart_applied`, `household_count`) VALUES (?, ?, ?, ?)";
         $stmt = $con->prepare($query);
-        // weights are bound as strings so DECIMAL values are not rounded through a float
+        // kept as strings so that float conversion doesn't ruin it
         $scale = (string)$scaleweight;
         $cart = (string)$cartapplied;
         $stmt->bind_param("issi", $customerid, $scale, $cart, $householdcount);
@@ -35,8 +29,8 @@ function addFoodOut($customerid, $scaleweight, $cartapplied, $householdcount)
     }
 }
 
-/* gets one active (not deleted) entry so the page can confirm what was just saved.
- * returns an array with customer_id and total_weight, or null if there is no such entry.
+/* gets an entry so the page can confirm what was just saved
+ * returns an array with customer_id & total_weight or null if there is no entry
  */
 function getFoodOutEntry($entryid)
 {

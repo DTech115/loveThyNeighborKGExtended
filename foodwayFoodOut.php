@@ -1,7 +1,9 @@
+<!-- DT Nesimi page for goods out -->
+
 <?php
 require_once(__DIR__ . '/database/dbFoodout.php');
 
-$cartWeight = 56; // lbs
+$cartWeight = 56; // lbs, will eventually have option to change
 $notice = null;   // [ 'ok' | 'error', message ]
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -11,11 +13,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $cartIn   = $_POST['cart_applied'] ?? '';
 
     $weightOk = preg_match('/^\d{1,5}(\.\d{1,2})?$/', $weightIn) === 1 && (float)$weightIn > 0;
-    // The cart can only be 0 or the real cart weight; any other number is rejected.
+    // the cart can only be 0 or the real cart weight, any other number is rejected
     $cart = (is_numeric($cartIn) && in_array((float)$cartIn, [0.0, (float)$cartWeight], true)) ? (float)$cartIn : null;
 
     if ($customer === false || $houses === false || !$weightOk || $cart === null || (float)$weightIn < $cart) {
-        $notice = ['error', 'That entry was not saved because something was missing or invalid. Please enter it again.'];
+        $notice = ['error', 'Missing or invalid entry. Please enter it again.'];
     } else {
         $id = addFoodOut($customer, $weightIn, $cart, $houses);
         if ($id !== false) {
@@ -25,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $notice = ['error', 'The entry was not saved because the database could not be reached. Tell a coordinator, then enter it again.'];
     }
 } elseif (isset($_GET['saved'])) {
-    // Show what was just saved so volunteers can catch a typo right away.
+    // show what was just saved so volunteers can catch a typo right away
     $row = getFoodOutEntry((int)$_GET['saved']);
     if ($row) {
         $notice = ['ok', 'Saved: customer ' . $row['customer_id'] . ', ' . (float)$row['total_weight'] . ' lbs of food.'];
@@ -131,9 +133,7 @@ require_once('header.php');
                         </button>
                     <?php endforeach; ?>
                 </div>
-                <button type="button" id="nextField"
-                        class="h-16 text-2xl font-bold rounded-2xl bg-gray-200 border-2 border-gray-300 focus:outline-none focus-visible:ring-4 focus-visible:ring-green-700">
-                    Next field</button>
+                
                 <button type="submit" id="saveBtn" disabled
                         class="h-24 text-3xl font-bold rounded-2xl bg-green-700 text-white disabled:bg-gray-300 disabled:text-gray-500 focus:outline-none focus-visible:ring-4 focus-visible:ring-green-900">
                     Save and start next customer</button>
@@ -182,13 +182,6 @@ function press(key) {
     render();
 }
 
-function nextField() {
-    const order = fieldOrder();
-    const i = order.indexOf(state.active);
-    state.active = order[(i + 1) % order.length];
-    render();
-}
-
 function render() {
     const weight = parseFloat(state.weight);
     const cartApplied = state.cart === 'yes' ? CART_WEIGHT : 0;
@@ -221,7 +214,7 @@ function render() {
     let total = '';
     const weightOk = !isNaN(weight) && weight > 0;
     if (weightOk && state.cart !== null) {
-        if (weight < cartApplied) {
+        if (weight <= cartApplied) {
             msg = 'The scale reads less than the ' + CART_WEIGHT + ' lb cart. Check the weight, or choose No cart.';
         } else {
             total = Number((weight - cartApplied).toFixed(2)) + ' lbs';
@@ -252,7 +245,6 @@ $$('.house').forEach(el => el.addEventListener('click', () => {
     render();
 }));
 $$('.cart').forEach(el => el.addEventListener('click', () => { state.cart = el.dataset.cart; render(); }));
-$('#nextField').addEventListener('click', nextField);
 
 document.addEventListener('keydown', (e) => {
     if (/^[0-9.]$/.test(e.key)) { e.preventDefault(); press(e.key); }
