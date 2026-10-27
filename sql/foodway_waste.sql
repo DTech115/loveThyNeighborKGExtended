@@ -3,11 +3,11 @@
 CREATE TABLE `waste` (
   `entry_id`        INT NOT NULL AUTO_INCREMENT,
   `entry_date`      DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `scale_weight`    DECIMAL(8,2) NOT NULL
+  `scale_weight`    DECIMAL(8,2) NOT NULL,
   `cart_applied`    DECIMAL(8,2) NOT NULL DEFAULT 0,
   `total_weight`    DECIMAL(8,2) GENERATED ALWAYS AS (`scale_weight` - `cart_applied`) STORED,
-  `deleted_at`      DATETIME NULL DEFAULT NULL,
   `waste_type`      VARCHAR(255) NOT NULL,
+  `deleted_at`      DATETIME NULL DEFAULT NULL,
   PRIMARY KEY (`entry_id`),
   KEY `idx_waste_date` (`entry_date`),
   CONSTRAINT `chk_waste_scale_positive`    CHECK (`scale_weight` > 0),
