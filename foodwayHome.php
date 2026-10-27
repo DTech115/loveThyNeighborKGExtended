@@ -32,8 +32,9 @@ require_once('header.php');
             <!-- add more buttons here -->
             <!-- shopping -->
             <a href="foodwayShopping.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
@@ -46,8 +47,9 @@ require_once('header.php');
 
             <!-- waste [pig fud] -->
             <a href="foodwayShopping.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
@@ -60,8 +62,9 @@ require_once('header.php');
 
             <!-- in-house use -->
             <a href="foodwayShopping.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
@@ -74,8 +77,9 @@ require_once('header.php');
 
             <!-- donations from us -->
             <a href="foodwayShopping.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
@@ -95,8 +99,9 @@ require_once('header.php');
             <!-- add more buttons here -->
              <!-- retail donation -->
             <a href="foodwayWaste.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
@@ -109,8 +114,9 @@ require_once('header.php');
 
             <!-- FRFB -->
             <a href="foodwayWaste.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
@@ -123,8 +129,9 @@ require_once('header.php');
 
             <!-- Donation from... -->
             <a href="foodwayWaste.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
@@ -136,8 +143,9 @@ require_once('header.php');
             </a>
 
             <a href="foodwayWaste.php"
-                class="group relative flex w-72 min-h-28 items-center justify-center
-                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                class="group isolate relative flex w-72 min-h-28 items-center justify-center
+                overflow-hidden whitespace-normal break-words px-6 py-6
+                    text-center text-3xl font-bold text-white
                     bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
                     rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
                     hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
