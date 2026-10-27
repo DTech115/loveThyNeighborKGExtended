@@ -21,23 +21,134 @@ require_once('header.php');
     </div>
     <main class="flex flex-1 items-center justify-center p-6">
 
-    <!-- Button row: add more buttons here later -->
-    <div class="flex flex-wrap items-center justify-center gap-8">
+    <!-- TWO columns for Food Out & Food In -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 w-full max-w-5xl">
+    
 
-        <a href="foodwayFoodOut.php"
-            class="group relative overflow-hidden px-16 py-10 text-3xl font-bold text-white
-                bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
-                rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
-                hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
-                active:translate-y-0 transition duration-300">
-        <!-- shine sweep on hover -->
-        <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
-                    group-hover:left-[150%] transition-all duration-700"></span>
-        <span class="relative">Record Food Out</span>
-        </a>
+        <!-- left column for Food Out -->
+        <div class="flex flex-col items-center gap-8">
+            <h2 class="text-3xl font-bold text-center">Food Out</h2>
 
+            <!-- add more buttons here -->
+            <!-- shopping -->
+            <a href="foodwayShopping.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">Shopping</span>
+            </a>
+
+            <!-- waste [pig fud] -->
+            <a href="foodwayShopping.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">Waste [Pig Fud]</span>
+            </a>
+
+            <!-- in-house use -->
+            <a href="foodwayShopping.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">In-House Use</span>
+            </a>
+
+            <!-- donations from us -->
+            <a href="foodwayShopping.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">Donations From Us</span>
+            </a>
+
+        </div>
+
+        <!-- right column for Food In -->
+        <div class="flex flex-col items-center gap-8">
+            <h2 class="text-3xl font-bold text-center">Food In</h2>
+
+            <!-- add more buttons here -->
+             <!-- retail donation -->
+            <a href="foodwayWaste.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">Retail Donation</span>
+            </a>
+
+            <!-- FRFB -->
+            <a href="foodwayWaste.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">FRFB</span>
+            </a>
+
+            <!-- Donation from... -->
+            <a href="foodwayWaste.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">Donation from...</span>
+            </a>
+
+            <a href="foodwayWaste.php"
+                class="group relative flex w-72 min-h-28 items-center justify-center
+                whitespace-normal break-words px-6 py-6 text-center text-3xl font-bold text-white
+                    bg-gradient-to-b from-[rgb(30,100,200)] to-[rgb(0,74,173)]
+                    rounded-2xl shadow-xl shadow-blue-900/40 ring-1 ring-white/20
+                    hover:-translate-y-1 hover:shadow-2xl hover:shadow-blue-900/50
+                    active:translate-y-0 transition duration-300">
+            <!-- shine sweep on hover -->
+            <span class="absolute inset-y-0 -left-full w-1/2 -skew-x-12 bg-white/30 blur-sm
+                        group-hover:left-[150%] transition-all duration-700"></span>
+            <span class="relative">Purchased by LTN</span>
+            </a>
     </div>
-</main>
+    </main>
 </div>
 </body>
 </html>

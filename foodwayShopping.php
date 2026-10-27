@@ -14,7 +14,7 @@ $editId   = null;   // entry_id being edited, or null for a new customer
 $editInfo = '';
 $start    = null;   // what the form opens with: an earlier entry, or what was typed before a failed save
 
-// entries this browser session has saved, oldest first. previous/newer walk this list, and only
+// entries this browser session has saved, oldest first. prev/newer walk this list, & only
 // entries on it can be opened for editing, so volunteers never touch each other's entries
 $history = array_map('intval', $_SESSION['foodout_history'] ?? []);
 
@@ -58,7 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    // keep what was typed, and stay on the same entry if one was being edited, so a retry never makes a duplicate
+    // keep what was typed & stay on the same entry if one was being edited so a retry never makes a duplicate
     $hc = max(1, (int)preg_replace('/\D/', '', $_POST['household_count'] ?? '1'));
     $start = [
         'customer'    => preg_replace('/\D/', '', $_POST['customer_id'] ?? ''),
@@ -104,7 +104,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-// previous / newer targets: walk this session's history around the entry being edited,
+// prev/newer targets walk this session's history around the entry being edited,
 // or start from the most recent entry when this is a new customer
 $pos = ($editId !== null) ? array_search($editId, $history, true) : false;
 if ($pos !== false) {
@@ -134,7 +134,7 @@ $isFoodwayPage = true;
 require_once('header.php');
 ?>
     <div class="px-6 pt-4">
-        <p style="font-size: 32px; text-align:center;">Record Food Out</p>
+        <p style="font-size: 32px; text-align:center;">Shopping • Food Out</p>
     </div>
 
 <?php if ($notice): ?>
@@ -147,7 +147,7 @@ require_once('header.php');
 <?php if ($editId !== null): ?>
     <div class="w-full max-w-5xl mx-auto px-6 pt-4">
         <p class="rounded-2xl px-6 py-4 text-xl font-bold bg-amber-100 text-amber-900">
-            Editing an earlier entry<?= $editInfo !== '' ? ' (' . htmlspecialchars($editInfo) . ')' : '' ?>. Saving replaces it; it will not add a new one.</p>
+            Editing an earlier entry<?= $editInfo !== '' ? ' (' . htmlspecialchars($editInfo) . ')' : '' ?>.</p>
     </div>
 <?php endif; ?>
 
@@ -181,14 +181,14 @@ require_once('header.php');
                     </div>
                     <button type="button" data-field="houses" id="housesField"
                             class="field hidden mt-3 w-full text-left rounded-2xl bg-white border-2 border-gray-300 px-6 py-3 focus:outline-none focus-visible:ring-4 focus-visible:ring-green-700">
-                        <span class="block text-lg text-gray-600">How many households? (3 or more)</span>
+                        <span class="block text-lg text-gray-600">How many households? [3 or more]</span>
                         <span id="val_houses" class="block text-4xl font-bold text-gray-900 min-h-[3rem]"></span>
                     </button>
                 </div>
 
                 <button type="button" data-field="weight"
                         class="field w-full text-left rounded-2xl bg-white border-2 border-gray-300 px-6 py-4 focus:outline-none focus-visible:ring-4 focus-visible:ring-green-700">
-                    <span class="block text-lg text-gray-600">Scale weight (lbs)</span>
+                    <span class="block text-lg text-gray-600">Scale weight [lbs]</span>
                     <span id="val_weight" class="block text-5xl font-bold text-gray-900 min-h-[3.5rem]"></span>
                 </button>
 
@@ -197,7 +197,7 @@ require_once('header.php');
                     <div class="flex gap-3">
                         <button type="button" data-cart="yes"
                                 class="cart flex-1 h-20 text-2xl font-bold rounded-2xl border-2 focus:outline-none focus-visible:ring-4 focus-visible:ring-green-700">
-                            Yes, cart (&minus;<?= (int)$cartWeight ?> lbs)</button>
+                            Yes, cart [&minus;<?= (int)$cartWeight ?> lbs]</button>
                         <button type="button" data-cart="no"
                                 class="cart flex-1 h-20 text-2xl font-bold rounded-2xl border-2 focus:outline-none focus-visible:ring-4 focus-visible:ring-green-700">
                             No cart</button>
@@ -225,7 +225,7 @@ require_once('header.php');
                 
                 <button type="submit" id="saveBtn" disabled
                         class="h-24 text-3xl font-bold rounded-2xl bg-green-700 text-white disabled:bg-gray-300 disabled:text-gray-500 focus:outline-none focus-visible:ring-4 focus-visible:ring-green-900">
-                    <?= $editId !== null ? 'Save changes and return' : 'Save and start next customer' ?></button>
+                    <?= $editId !== null ? 'Save changes & return' : 'Save & start next customer' ?></button>
 
                 <?php if ($olderId !== null || $editId !== null): ?>
                 <div class="flex gap-3">
@@ -250,7 +250,7 @@ require_once('header.php');
 
 <script>
 const CART_WEIGHT = <?= json_encode((float)$cartWeight) ?>;
-const START = <?= json_encode($start) ?>; // null for a new customer; the saved values when editing an earlier entry
+const START = <?= json_encode($start) ?>; // null for a new customer, the saved values when editing an earlier entry
 const state = Object.assign(
     { active: 'customer', customer: '', weight: '', houseChoice: 1, houses: '', cart: null },
     START || {}
