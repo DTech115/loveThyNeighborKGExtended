@@ -1,6 +1,6 @@
 <?php
-// DT Nesimi page for goods out
-// (this comment stays inside the php block on purpose: anything printed before it would block the redirect after saving)
+// DT Nesimi
+// page for shopping [goods out]
 ob_start();
 if (session_status() === PHP_SESSION_NONE) {
     session_start(); // remembers which entries this browser saved, for the previous customer button
@@ -12,11 +12,11 @@ $self     = strtok($_SERVER['REQUEST_URI'], '?');
 $notice   = null;   // [ 'ok' | 'error', message ]
 $editId   = null;   // entry_id being edited, or null for a new customer
 $editInfo = '';
-$start    = null;   // what the form opens with: an earlier entry, or what was typed before a failed save
+$start    = null;   // what the form opens with. an earlier entry or what was typed before a failed save
 
 // entries this browser session has saved, oldest first. prev/newer walk this list, & only
 // entries on it can be opened for editing, so volunteers never touch each other's entries
-$history = array_map('intval', $_SESSION['foodout_history'] ?? []);
+$history = array_map('intval', $_SESSION['shopping_history'] ?? []);
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $customer = filter_var($_POST['customer_id'] ?? '', FILTER_VALIDATE_INT, ['options' => ['min_range' => 1]]);
@@ -37,17 +37,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $notice = ['error', 'Missing or invalid entry. Please enter it again.'];
     } elseif ($postedId !== null) {
         // editing an earlier entry: overwrite that one row, never add a new one
-        if (getFoodOutEntry($postedId) !== null && updateFoodOut($postedId, $customer, $weightIn, $cart, $houses)) {
+        if (getShoppingEntry($postedId) !== null && updateShoppingEntry($postedId, $customer, $weightIn, $cart, $houses)) {
             $id   = $postedId;
             $verb = 'updated';
         } else {
             $notice = ['error', 'The changes were not saved because the database could not be reached. Tell a coordinator, then try again.'];
         }
     } else {
-        $id = addFoodOut($customer, $weightIn, $cart, $houses);
+        $id = addShoppingEntry($customer, $weightIn, $cart, $houses);
         if ($id !== false) {
             $history[] = $id;
-            $_SESSION['foodout_history'] = array_slice($history, -25);
+            $_SESSION['shopping_history'] = array_slice($history, -25);
             $verb = 'saved';
         } else {
             $notice = ['error', 'The entry was not saved because the database could not be reached. Tell a coordinator, then enter it again.'];
@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // show what was just saved or changed so volunteers can catch a typo right away
     foreach (['saved' => 'Saved', 'updated' => 'Updated'] as $key => $label) {
         if (isset($_GET[$key])) {
-            $row = getFoodOutEntry((int)$_GET[$key]);
+            $row = getShoppingEntry((int)$_GET[$key]);
             if ($row) {
                 $notice = ['ok', $label . ': customer ' . $row['customer_id'] . ', ' . (float)$row['total_weight'] . ' lbs of food.'];
             }
@@ -85,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // open an earlier entry for editing
     if (isset($_GET['edit'])) {
         $eid = (int)$_GET['edit'];
-        $row = in_array($eid, $history, true) ? getFoodOutEntry($eid) : null;
+        $row = in_array($eid, $history, true) ? getShoppingEntry($eid) : null;
         if ($row) {
             $count = (int)$row['household_count'];
             $w     = $row['scale_weight'];
@@ -340,7 +340,7 @@ function render() {
     $('#saveBtn').disabled = !valid;
 
     $('#in_customer').value = state.customer;
-    $('#in_weight').value   = state.weight;
+    $('#in_weight').value = state.weight.replace(/\.$/, '');
     $('#in_houses').value   = housesVal;
     $('#in_cart').value     = cartApplied;
 }
