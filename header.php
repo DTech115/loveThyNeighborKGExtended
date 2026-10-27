@@ -4,7 +4,7 @@ if (($isFoodwayPage ?? false) === true) {
     <header class="header foodway-public-header">
         <div class="header-container">
             <div class="header-left">
-                <div class="date">Foodway</div>
+                <div class="date"><a href="foodwayHome.php">Foodway</a></div>
             </div>
             <div class="header-center">
                 <div class="header-top">
