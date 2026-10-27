@@ -5,7 +5,7 @@ ob_start();
 if (session_status() === PHP_SESSION_NONE) {
     session_start(); // remembers which entries this browser saved, for the previous customer button
 }
-require_once(__DIR__ . '/database/dbFoodout.php');
+require_once(__DIR__ . '/database/dbShopping.php');
 
 $cartWeight = 56; // lbs, will eventually have option to change
 $self     = strtok($_SERVER['REQUEST_URI'], '?');

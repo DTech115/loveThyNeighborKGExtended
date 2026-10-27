@@ -61,7 +61,7 @@ require_once('header.php');
             </a>
 
             <!-- in-house use -->
-            <a href="foodwayInHouseUse.php"
+            <a href="foodwayHome.php"
                 class="group isolate relative flex w-72 min-h-28 items-center justify-center
                 overflow-hidden whitespace-normal break-words px-6 py-6
                     text-center text-3xl font-bold text-white
@@ -76,7 +76,7 @@ require_once('header.php');
             </a>
 
             <!-- donations from us -->
-            <a href="foodwayDonationFromUs.php"
+            <a href="foodwayHome.php"
                 class="group isolate relative flex w-72 min-h-28 items-center justify-center
                 overflow-hidden whitespace-normal break-words px-6 py-6
                     text-center text-3xl font-bold text-white
@@ -98,7 +98,7 @@ require_once('header.php');
 
             <!-- add more buttons here -->
              <!-- retail donation -->
-            <a href="foodwayRetailDonation.php"
+            <a href="foodwayHome.php"
                 class="group isolate relative flex w-72 min-h-28 items-center justify-center
                 overflow-hidden whitespace-normal break-words px-6 py-6
                     text-center text-3xl font-bold text-white
@@ -113,7 +113,7 @@ require_once('header.php');
             </a>
 
             <!-- FRFB -->
-            <a href="foodwayFRFB.php"
+            <a href="foodwayHome.php"
                 class="group isolate relative flex w-72 min-h-28 items-center justify-center
                 overflow-hidden whitespace-normal break-words px-6 py-6
                     text-center text-3xl font-bold text-white
@@ -128,7 +128,7 @@ require_once('header.php');
             </a>
 
             <!-- Donation from... -->
-            <a href="foodwayDonationFrom.php"
+            <a href="foodwayHome.php"
                 class="group isolate relative flex w-72 min-h-28 items-center justify-center
                 overflow-hidden whitespace-normal break-words px-6 py-6
                     text-center text-3xl font-bold text-white
@@ -142,7 +142,7 @@ require_once('header.php');
             <span class="relative">Donation from...</span>
             </a>
 
-            <a href="foodwayPurchasedLTN.php"
+            <a href="foodwayHome.php"
                 class="group isolate relative flex w-72 min-h-28 items-center justify-center
                 overflow-hidden whitespace-normal break-words px-6 py-6
                     text-center text-3xl font-bold text-white

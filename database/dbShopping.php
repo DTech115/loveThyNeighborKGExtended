@@ -1,5 +1,5 @@
 <?php
-// fuctions for the foodsout part of the database
+// fuctions for the shopping part of the database
 
 
 include_once('dbinfo.php');
