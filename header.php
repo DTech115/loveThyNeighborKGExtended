@@ -4,7 +4,7 @@ if (($isFoodwayPage ?? false) === true) {
     <header class="header foodway-public-header">
         <div class="header-container">
             <div class="header-left">
-                <div class="date"><a href="foodwayHome.php">Foodway</a></div>
+                <div class="profile-name foodway-public-login"><a href="foodwayHome.php">Main Menu</a></div>
             </div>
             <div class="header-center">
                 <div class="header-top">
@@ -18,7 +18,7 @@ if (($isFoodwayPage ?? false) === true) {
                 </div>
             </div>
             <div class="header-right">
-                <a class="profile-name foodway-public-login" href="login.php">Volunteer Login</a>
+                <a class="profile-name foodway-public-login" href="login.php">↩ Back to Volunteer Login</a>
             </div>
         </div>
     </header>
